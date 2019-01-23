@@ -9,7 +9,7 @@ import createConfigMap from './createConfigMap';
 
 Promise.promisifyAll(fs);
 
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */  );
 AWS.config.update( { region : 'us-east-1' } );
 
 let clusterName = 'TestEKSCluster';

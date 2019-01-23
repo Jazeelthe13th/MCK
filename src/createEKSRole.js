@@ -3,7 +3,7 @@ import AWS from 'aws-sdk';
 import uuidv1 from 'uuid/v1';
 
 //Setting Credentials and Region
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */  );
 AWS.config.update( { region : 'us-east-1' } );
 
 //Locking IAM API Version

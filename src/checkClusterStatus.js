@@ -1,7 +1,7 @@
 import AWS from 'aws-sdk';
 import setCredentials from './setCredentials_AWS';
 
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */ );
 AWS.config.update( { region : 'us-east-1' } );
 
 let eks = new AWS.EKS( { apiVersion : '2017-11-01' } );

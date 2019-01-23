@@ -2,7 +2,7 @@ import { exec } from 'child-process-promise';
 import setCredentials from './setCredentials_AWS';
 import AWS from 'aws-sdk';
 
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */  );
 AWS.config.update( { region : 'us-east-1' } );
 
 

@@ -6,7 +6,7 @@ import setCredentials from './setCredentials_AWS';
 //Promisifying fs to use in async/await
 Promise.promisifyAll( fs );
 
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */  );
 AWS.config.update( { region : 'us-east-1' } );
 
 let cloudFormation = new AWS.CloudFormation( { apiVersion : '2010-05-15' } );

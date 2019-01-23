@@ -1,7 +1,7 @@
 import AWS from 'aws-sdk';
 import setCredentials from './setCredentials_AWS';
 
-setCredentials( 'AKIA3OMFZLXUVA6TU3OJ' , 'w19JaY5StCPMcsSHa4BkilGxB62MFPOVugUYXnKD' );
+setCredentials( /* Credentials here */  );
 AWS.config.update( { region : 'us-east-1' } );
 
 let ec2 = new AWS.EC2( { apiVersion : '2016-11-15' } );
